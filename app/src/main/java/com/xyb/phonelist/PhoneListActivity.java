@@ -70,8 +70,6 @@ public class PhoneListActivity extends AppCompatActivity {
                      callitt.setAction(Intent.ACTION_CALL);
                      callitt.setData(Uri.parse("tel:"+num));
                      startActivity(callitt);
-
-
                     }
            };
     private SMSListener smsListener=new SMSListener() {
